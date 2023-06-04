@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testing">
+    <test name="Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="simpleTests.SimpleTestClass"/>
+            <class name="mediumTests.MediumTestClass"/>
+        </classes>
+    </test>
+    <test name="Test Hard">
+        <classes>
+            <class name="hardTests.HardTestClass"/>
+        </classes>
+    </test>
+</suite>
