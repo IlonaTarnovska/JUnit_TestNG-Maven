@@ -18,13 +18,12 @@ public class Calculator {
         return a * b;
     }
 
-
     //TODO add method for division
     public int div(int a, int b) {
         return a / b;
     }
-    //TODO add method for square root (use Math class)
 
+    //TODO add method for square root (use Math class)
     public double sqrt(int a) {
         return Math.sqrt(a);
     }
@@ -37,7 +36,6 @@ public class Calculator {
 
     //TODO (*) |average value| add method which calculate average value of 3 numbers
     public int avg(int a, int b, int c) {
-
         return (a + b + c) / 3;
     }
 
@@ -78,10 +76,3 @@ public class Calculator {
     }
 
 }
-
-
-
-
-
-
-
